@@ -28,7 +28,7 @@ void line(int x1, int y1, int x2, int y2, COLORREF color)
 	}
 	else
 	{
-		float k = dy / (dx + 0.1);
+		float k = dy / (dx + 1);
 		int x = x1;
 		int y = y1;
 		while (x <= x2)
